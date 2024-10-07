@@ -95,6 +95,12 @@ body {
   border-radius: 6px;
   display: flex;
   flex-direction: column;
+  transition: transform 0.5s;
+  overflow: hidden;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
 }
 
 .gallery-image {
